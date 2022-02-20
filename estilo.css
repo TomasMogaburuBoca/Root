@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/montana.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+@media (min-width: 220px){
+    header{
+        width: 100%;
+        height: auto;
+        text-transform: capitalize;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px;
+    }
+    h1{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        font-weight: lighter;
+        text-transform: capitalize;
+        width: 100vw;
+        height: auto;
+        color:white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    h2{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 5px;
+        color:
+    }
+    main{
+        display: flex;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+    main ul{
+        list-style: none;
+        text-transform: capitalize;
+        font-weight: lighter;
+    }
+    li{
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    main li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .footer-index img{
+        width: 20px;
+        height: 20px;
+    }
+}    

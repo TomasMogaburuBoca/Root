@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"name": "pages",
+			"path": "..\\HTML. 01\\pages"
+		},
+		{
+			"name": "Multimedia",
+			"path": "..\\Multimedia"
+		},
+		{
+			"name": "Clase 5. FlexBox",
+			"path": "..\\..\\Clase 5. FlexBox"
+		},
+		{
+			"path": "..\\HTML. 01\\Root"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pages"
+	}
+}
