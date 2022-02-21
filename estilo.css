@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
     overflow:hidden;
     color: white;
-}
+}                   /*---------------------Maquetado generico para el portfolio--------------------------*/
 @media (min-width: 220px){
     header{
         width: 100%;
@@ -73,15 +73,23 @@ body{
         animation-play-state: running;
         animation-name: greenmood;
     }
-    
-    
-    
-    
-    
-    
-    
-    .footer-index img{
-        width: 20px;
-        height: 20px;
+    .back{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 200px;
     }
+    .back a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        text-transform: capitalize;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .back a:hover{
+        color: rgb(2, 68, 2);
+    }
+                    /*---------------------Maquetado generico para el portfolio--------------------------*/
 }    

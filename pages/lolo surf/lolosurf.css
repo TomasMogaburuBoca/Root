@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(1, 4, 5);
+}
+:root{
+    
+    color: rgb(1, 4, 5);
+}
+@media (min-width: 220px){
+    .navbar-brand{
+        text-transform: uppercase;
+    }
+    .jumbotron{
+        background-image: url(./img/van.png);
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        color: cornsilk;
+        border-radius: 0;
+        margin: 0;
+    }
+    .jumbotron h1{
+        color: rgb(1, 4, 5);
+        text-transform: capitalize;
+        text-shadow: 1px 3px lightblue;
+    }
+    .jumbotron p{
+        color: rgb(1, 4, 5);
+        text-transform: lowercase;
+        text-shadow: 1px 1px cornsilk;
+    }
+    .btn{
+        text-transform: capitalize;
+        background-color: rgb(1, 4, 5);
+        color: cornsilk;
+        border-color: lightblue;
+    }
+    .btn:hover{
+        background-color: cornsilk;
+        color: rgb(1, 4, 5);
+        border-color: lightblue;
+    }
+/*-----comienza el main con las fotos descriptivas-- inicio---*/
+    .main{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+    }
+    .div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .div1{
+        background-color: rgb(1, 4, 5);
+        width: 100%;
+        height: 300px;
+        background-image: url(./img/surf.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .div2{
+        background-color: rgb(1, 4, 5);
+        width: 100%;
+        height: 300px;
+        background-image: url(./img/surfskate.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .div3{
+        background-color: rgb(1, 4, 5);
+        width: 100%;
+        height: 300px;
+        background-image: url(./img/kite.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .div p{
+        text-decoration: none;
+        width: 100%;
+        margin-top: 40%;
+        background-color: white;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: rgb(1, 4, 5);
+        
+
+    }
+    /*-----termina la seccion de los deporte----*/
+    /*-----seccion green mood-----*/
+    .green{
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .green div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/hoja\ palmera.png);
+        background-position: center;
+        background-size: cover;
+        width: 90%;
+        height: 300px;
+    }
+    
+    /*-----seccion green mood-----*/
+}
+@media (min-width: 670px){
+    .jumbotron{
+        background-position: center;
+        height: 600px;
+    }
+    .jumbotron h1{
+        font-size: 60px;
+    }
+    .jumbotron p{
+        font-size: 30px;
+        text-shadow: 1px 2px lightblue;
+    }
+    .div1, .div2, .div3{
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+/*-----comienza el main con las fotos descriptivas-- fin---*/
