@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+.index{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100vw;
     height: 100vh;
@@ -12,7 +12,17 @@ body{
     background-repeat: no-repeat;
     overflow:hidden;
     color: white;
-}                   /*---------------------Maquetado generico para el portfolio--------------------------*/
+} 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/mar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}                 
+/*---------------------Maquetado generico para el portfolio--------------------------*/
 @media (min-width: 220px){
     header{
         width: 100%;
@@ -63,9 +73,11 @@ body{
     main li a{
         text-decoration: none;
         color: white;
+        text-shadow: 1px 1px rgb(2, 68, 2);
     }
     main li a:hover{
         color: rgb(2, 68, 2);
+        text-shadow: 1px 1px white;
         animation: ease-out 1.5s;
         animation-duration: 1.5s; animation-timing-function:ease-out; animation-delay: 0s;
         animation-iteration-count: 1.5s; animation-direction:normal;
@@ -73,6 +85,13 @@ body{
         animation-play-state: running;
         animation-name: greenmood;
     }
+    /*--------parrafo de my travel-----*/
+    span{
+        background-color: rgba(255, 255, 255, 0.2);
+        text-align: center;
+        color: rgb(2, 68, 2);
+    }
+    /*-------parrafo de my travel-----*/
     .back{
         width: 100vw;
         height: auto;
@@ -85,11 +104,13 @@ body{
         text-align: center;
         text-decoration: none;
         color: white;
+        text-shadow: 1px 1px rgb(2, 68, 2);
         text-transform: capitalize;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     .back a:hover{
         color: rgb(2, 68, 2);
+        text-shadow: 1px 1px white;
     }
                     /*---------------------Maquetado generico para el portfolio--------------------------*/
 }    
