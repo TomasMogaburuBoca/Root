@@ -1,5 +1,6 @@
 body{
     background-color: rgb(1, 4, 5);
+    
 }
 :root{
     
@@ -8,6 +9,9 @@ body{
 @media (min-width: 220px){
     .navbar-brand{
         text-transform: uppercase;
+    }
+    .collapse{
+        text-transform: capitalize;
     }
     .jumbotron{
         background-image: url(./img/van.png);
@@ -39,6 +43,13 @@ body{
         background-color: cornsilk;
         color: rgb(1, 4, 5);
         border-color: lightblue;
+    }
+    .btn a{
+        color: cornsilk;
+        text-decoration: none;
+    }
+    .btn a:hover{
+        color: rgb(1, 4, 5);
     }
 /*-----comienza el main con las fotos descriptivas-- inicio---*/
     .main{
@@ -93,8 +104,42 @@ body{
 
     }
     /*-----termina la seccion de los deporte----*/
+    /*-------seccion sea mood------*/
+    .sea{
+        overflow: hidden;
+        width: 100vw;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; 
+    }
+    .sea div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./img/ballena.png);
+        background-position: center;
+        background-size: cover;
+        width: 90%;
+        height: 300px;
+    }
+    .sea p{
+        background-color: rgb(0, 0, 0, 0.30);
+        color: white;
+        width: 70%;
+        height: auto;
+    }
+    .sea a{
+        text-decoration: none;
+        color: cornsilk;
+    }
+    .sea a:hover{
+        font-weight: lighter;
+    }
+    /*-------seccion sea mood------*/
     /*-----seccion green mood-----*/
     .green{
+        overflow: hidden;
         width: 100vw;
         height: 300px;
         display: flex;
@@ -111,7 +156,12 @@ body{
         width: 90%;
         height: 300px;
     }
-    
+    .green p{
+        background-color: rgb(0, 0, 0, 0.30);
+        color: white;
+        width: 70%;
+        height: auto;
+    }
     /*-----seccion green mood-----*/
 }
 @media (min-width: 670px){
