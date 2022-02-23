@@ -21,7 +21,16 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     overflow:hidden;
-}                 
+} 
+.body-travel{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./multimedia/atardecer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow:hidden;
+}                
 /*---------------------Maquetado generico para el portfolio--------------------------*/
 @media (min-width: 220px){
     header{
