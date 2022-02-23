@@ -94,13 +94,7 @@ body{
         animation-play-state: running;
         animation-name: greenmood;
     }
-    /*--------parrafo de my travel-----*/
-    span{
-        background-color: rgba(255, 255, 255, 0.2);
-        text-align: center;
-        color: rgb(2, 68, 2);
-    }
-    /*-------parrafo de my travel-----*/
+    
     .back{
         width: 100vw;
         height: auto;
